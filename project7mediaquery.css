@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+
+}
+body{
+    background-color: rgba(7, 7, 73, 0.739);
+}
+.list p img{
+    display: none;
+    width: 20px;
+}
+
+/* list */
+.list ul{
+    display: flex;
+    gap: 63px;
+    justify-content: end;
+    list-style: none;
+    margin: 3px;
+    color: aliceblue;
+}
+.list ul li:hover{
+    background-color: blue;
+    border-radius: 6px;
+    
+}
+/* first line */
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para p{
+      width: 40%;
+      margin-left: 50%;
+      color: antiquewhite;
+      font-weight: 600;
+}
+
+.span1{
+    color: yellow;
+}
+.image img{
+    width: 300px;
+}
+.para p img{
+    width: 23px;
+}
+
+/* second line  */
+.rohit {
+    margin-left: 48.2%;
+ 
+}
+.parag{
+    background-color: blue;
+    width: 55px;
+    height: 7px;
+   
+    border-radius: 5px;
+
+    
+}
+
+
+
+/* third */
+.medium{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.mediumb img{
+    width: 250px;
+}
+.mediuma img{
+    width: 250px;
+}
+.mediumb p, .mediuma p{
+    text-align: center;
+} 
+
+/* fourth */
+.medium2{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.mediumb2 img{
+    width: 250px;
+}
+.mediuma2 img{
+    width: 250px;
+}
+.mediumb2 p, .mediuma2 p{
+    text-align: center;
+} 
+
+/* fifth */
+.contact{
+    margin-left:46% ;
+    margin-top: 10px;
+}
+.contact1{
+    font-weight: 500;
+    font-size: 25px;
+    color: antiquewhite;
+}
+.contact2{
+    width: 116px;
+    height: 7px;
+    background-color: blue;
+    border-radius: 3px;
+}
+
+/* last */
+.last{
+    text-align: center;
+    margin-top: 10px;
+}
+.last1 a{
+    color: azure;
+}
+.last2 a{
+    color:sienna;
+}
+
+@media  screen and (max-width:576px) {
+    body{
+        background-color: brown;
+    }
+    .list ul{
+        display: none;
+    }
+  .list p img{
+    display: block;
+  }
+
+  /* second */
+  .first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+       
+  }
+  .para p{
+    margin: 0;
+    font-weight: 900;
+    width: 100%;
+  }
+
+  /* third */
+  .medium{
+    display: flex;
+    flex-direction: column;
+  }
+  .medium2{
+    display: flex;
+    flex-direction: column;
+  }
+  .rohit{
+    margin-left: 46%;
+  }
+  .contact{
+   margin-left:38% ;
+  }
+  .span1{
+    display: block;
+    margin-left:15% ;
+
+  }
+  .span2{
+    display: block;
+    
+    
+    text-align: center;
+  }
+  .para p img{
+    display: block;
+    margin-left: 30%;
+  }
+  .span3{
+    display: block;
+    margin-left: 10%;
+  }
+}
